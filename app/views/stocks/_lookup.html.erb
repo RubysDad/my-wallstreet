@@ -14,7 +14,7 @@
     </div>
   </div>
   <% end %>
-  <%= if @stock %>
+  <% if @stock %>
     <div id="stock_lookup_results" class="well results-block">
         <strong>Symbol:</strong> <%= @stock.ticker %>
         <strong>Name:</strong> <%= @stock.name %>
